@@ -20,7 +20,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 */
 
 // Select the network you want to deploy to here:
-const defaultNetwork = "localhost";
+const defaultNetwork = "goerli";
 
 const mainnetGwei = 115;
 
@@ -253,7 +253,7 @@ module.exports = {
   },
   etherscan: {
     // your api key here.
-    apiKey: "PSW8C433Q667DVEX5BCRMGNAH9FSGFZ7Q8",
+    apiKey: "1GW2CUCU6GVMVY34J1RM6K8K69H4ZA6KDD",
   },
 };
 
